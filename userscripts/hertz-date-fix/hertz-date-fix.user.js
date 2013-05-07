@@ -16,3 +16,5 @@ for (var i = 0; i < fdhs.length; ++i)
 		fdhs[i].innerHTML = match[2] + "/" + match[1] + "/" + match[3];
 	}
 }
+
+document.getElementsByClassName("ememberSectionHeaderReceipts")[0].innerHTML += " with reasonable date formatting";
