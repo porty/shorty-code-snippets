@@ -13,6 +13,6 @@ for (var i = 0; i < fdhs.length; ++i)
 	if (regex.test(fdhs[i].innerHTML))
 	{
 		var match = regex.exec(fdhs[i].innerHTML);
-		fdhs.innerHTML = match[2] + "/" + match[1] + "/" + match[3];
+		fdhs[i].innerHTML = match[2] + "/" + match[1] + "/" + match[3];
 	}
 }
